@@ -170,13 +170,13 @@ body .button-hover:hover::before {
   transition: all 0.5s;
 }
 .bg1 {
-  background: url("../images/background1.png");
+  background: url("../images/background1.jpg");
 }
 .bg2 {
-  background: url("../images/background2.png");
+  background: url("../images/background2.jpg");
 }
 .bg3 {
-  background: url("../images/background3.png");
+  background: url("../images/background3.jpg");
 }
 @media screen and (min-width: 1200px) {
   #post figure.highlight.js table::before {
