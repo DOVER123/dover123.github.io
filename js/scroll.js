@@ -65,7 +65,6 @@
         axis: 'y', // horizontal scrollbar
         callbacks: {}
     });
-
     // $('figure.highlight').mCustomScrollbar({
     //     theme: 'minimal',
     //     axis: 'x', // horizontal scrollbar
@@ -134,4 +133,11 @@
             easing: 'easeInQuart'
         });
     }
+    $('body').on('click',function(e){
+        if($(e.target).attr('id') != 'local-search-input'){
+            if(!$('#local-search-result').is(':hidden')){
+                $('#local-search-result').hide();
+            }
+        } 
+    })
 }());

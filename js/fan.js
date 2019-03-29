@@ -19,9 +19,6 @@
                 $('#main-container').velocity('stop').velocity({marginLeft: '0px'}, 800, 'spring');
             }
         } else {
-            document.documentElement.style.fontSize = '12px';
-            //设置body字体大小，不影响body内字体大小
-            document.body.style.fontSize = '12px';
 
             $('#menu-inner').removeClass('min-menu-inner');
 

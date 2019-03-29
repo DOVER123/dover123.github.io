@@ -127,6 +127,7 @@ html,
 body {
   height: 100%;
   color: #fff;
+  font-size: 14px;
 }
 html #page,
 body #page,
@@ -10036,4 +10037,37 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+.search_p {
+  display: inline-block;
+  position: relative;
+}
+.search_p .local-search-result-cls {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+}
+.search_p .local-search-result-cls .search-result-list {
+  background: rgba(0,0,0,0.6);
+  padding: 5px;
+}
+.search_p .local-search-result-cls .search-result-list li {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 10px;
+  line-height: 30px;
+}
+.search_p .st-search-input {
+  background: 0 0;
+  color: #fff;
+  border: none;
+  outline: 0;
+}
+.right-top {
+  display: inline-block;
 }
