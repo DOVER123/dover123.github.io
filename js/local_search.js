@@ -101,4 +101,5 @@ var searchFunc = function(path, search_id, content_id) {
     })
 };
 var path = window.location.protocol+"//"+window.location.host+"/search.xml";
+alert(path)
 searchFunc(path, 'local-search-input', 'local-search-result');
